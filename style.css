@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background-color: #002b80;
+}
+
+.hf, .app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body{
+  color: white;
+  font-size: x-large;
+  background-color: #4d88ff;
+}
+
+#heading {
+  /* font-size: 2rem; */
+  margin: 6rem auto 2rem auto;
+}
+
+
+.labels {
+  display: block;
+  margin: 0.5rem 0 0.5rem 0;
+  /* font-size: 1.2rem; */
+}
+
+.inputs {
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 1rem 0.4rem;
+  width: 20rem;
+  height: 1.5rem;
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+
+.inputs:focus {
+  border: 1.5px solid black;
+}
+
+#submit {
+  background-color: black;
+  color: inherit;
+  margin: 1rem 0;
+  width: 8rem;
+  height: 2rem;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+#submit:focus{
+  border: 1.5px solid black;
+}
+
+#display {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer{
+  background-color:  #4d88ff;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0 0 0; 
+}
+
+.sm-icons{
+  font-size: 1.5rem;
+  color: white;
+  list-style: none;
+  display: inline;
+  margin: 1rem;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  transition: all 0.4s;
+}
+
+.sm-icons:hover{
+  transform: scale(1.5);
+}
+
+.sm-links{
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer ends */
