@@ -18,14 +18,21 @@
 body{
   color: white;
   font-size: x-large;
-  background-color: #4d88ff;
+  background-color: #03033b;
+}
+
+#container{
+  margin: 6rem auto;
+  max-width: 500px;
+  background-color: #006600;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #001a00;
 }
 
 #heading {
   /* font-size: 2rem; */
-  margin: 6rem auto 2rem auto;
+  margin: 3rem auto 2rem auto;
 }
-
 
 .labels {
   display: block;
@@ -67,10 +74,10 @@ body{
 }
 
 /* Footer */
-
+/* 
 .footer{
-  background-color:  #4d88ff;
-}
+  background-color:  #000066;
+} */
 
 .social-links{
   display: flex;
