@@ -158,7 +158,8 @@ function showMessage(date){
     display.innerHTML = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year} after ${count} days.`
   }
   
-  else{
+  else
+  {
     display.innerHTML = `Your Birthday is a Palindrome 🥳🎉`
   }
 }
